@@ -42,7 +42,7 @@
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="56"/>
         <source>The day is now %1%</source>
-        <translation>День теперь %1% xzxz</translation>
+        <translation>Сегодня %1%</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="191"/>
@@ -52,7 +52,7 @@
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="197"/>
         <source>Bad request</source>
-        <translation type="unfinished"></translation>
+        <translation>Неверный запрос</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="198"/>
@@ -72,7 +72,8 @@
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="201"/>
         <source>Recipient can no longer be contacted</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>wtf</translatorcomment>
+        <translation>Получатель недоступен</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="202"/>
@@ -82,87 +83,87 @@
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="203"/>
         <source>Item not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент не найден</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="204"/>
         <source>JID Malformed</source>
-        <translation type="unfinished"></translation>
+        <translation>Некорректный JID</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="205"/>
         <source>Message was rejected</source>
-        <translation type="unfinished"></translation>
+        <translation>Сообщение отклонено</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="206"/>
         <source>Not allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>Не разрешено</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="207"/>
         <source>Not authorized</source>
-        <translation type="unfinished"></translation>
+        <translation>Не авторизован</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="208"/>
         <source>Payment is required</source>
-        <translation type="unfinished"></translation>
+        <translation>Требуется оплата</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="209"/>
         <source>Recipient is unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>Получатель недоступен</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="210"/>
         <source>Redirect</source>
-        <translation type="unfinished"></translation>
+        <translation>Перенаправление</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="211"/>
         <source>Registration required</source>
-        <translation type="unfinished"></translation>
+        <translation>Требуется регистрация</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="212"/>
         <source>Recipient&apos;s server not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервер получателя не найден</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="213"/>
         <source>Remote server timeout</source>
-        <translation type="unfinished"></translation>
+        <translation>Таймаут сервера</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="214"/>
         <source>The server is low on resources</source>
-        <translation type="unfinished"></translation>
+        <translation>Серверу не хватает ресурсов</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="215"/>
         <source>The service is unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервис недоступен</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="216"/>
         <source>A subscription is required</source>
-        <translation type="unfinished"></translation>
+        <translation>Требуется подписка</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="217"/>
         <source>Undefined condition</source>
-        <translation type="unfinished"></translation>
+        <translation>Неопределённое условие</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="218"/>
         <source>Unexpected request</source>
-        <translation type="unfinished"></translation>
+        <translation>Неожиданный запрос</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="114"/>
         <source>Room %1% is not responding. This operation may never complete.</source>
-        <translation type="unfinished"></translation>
+        <translation>Комната %1% не отвечает. Эта операция может не завершиться.</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="125"/>
@@ -262,7 +263,8 @@
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="322"/>
         <source>Occupants</source>
-        <translation>Изгои xzxz</translation>
+        <translatorcomment>wtf</translatorcomment>
+        <translation>Изгои</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="336"/>
@@ -273,7 +275,7 @@
         <location filename="../Controllers/Chat/MUCController.cpp" line="365"/>
         <location filename="../Controllers/Chat/MUCController.cpp" line="474"/>
         <source>%1% has left the room</source>
-        <translation>%1% выходит</translation>
+        <translation>%1% вышел</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="365"/>
@@ -299,32 +301,32 @@
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="471"/>
         <source>%1% have left the room</source>
-        <translation>%1% вышел из комнаты</translation>
+        <translation>%1% вышли из комнаты</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="479"/>
         <source>%1% have entered then left the room</source>
-        <translation>%1% вошли и вышли xzxz</translation>
+        <translation>%1% вошли и вышли</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="482"/>
         <source>%1% has entered then left the room</source>
-        <translation>%1% вошёл и вышел xzxz</translation>
+        <translation>%1% вошёл и вышел</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="487"/>
         <source>%1% have left then returned to the room</source>
-        <translation>%1% вышли, затем вернулись xzxz</translation>
+        <translation>%1% вышли, затем вернулись</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="490"/>
         <source>%1% has left then returned to the room</source>
-        <translation>%1% вышел, затем вернулся xzxz</translation>
+        <translation>%1% вышел, затем вернулся</translation>
     </message>
     <message>
         <location filename="../Controllers/EventNotifier.cpp" line="51"/>
         <source>%1% wants to add you to his/her contact list</source>
-        <translation>%1 хочет добавить Вас в свой ​​список контактов</translation>
+        <translation>%1% хочет добавить Вас в свой ​​список контактов</translation>
     </message>
     <message>
         <location filename="../Controllers/EventNotifier.cpp" line="55"/>
@@ -339,27 +341,27 @@
     <message>
         <location filename="../Controllers/MainController.cpp" line="439"/>
         <source>Unable to find server</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удаётся найти сервер</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="440"/>
         <source>Error connecting to server</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка подключения к серверу</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="441"/>
         <source>Error while receiving server data</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка получения данных</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="442"/>
         <source>Error while sending data to the server</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка отправки данных на сервер</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="443"/>
         <source>Error parsing server data</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка обработки данных от сервера</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="444"/>
@@ -369,122 +371,122 @@
     <message>
         <location filename="../Controllers/MainController.cpp" line="445"/>
         <source>Error while compressing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка сжатия потока</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="446"/>
         <source>Server verification failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка сервера не удалась</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="447"/>
         <source>Authentication mechanisms not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Механизм авторизации не поддерживается</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="448"/>
         <source>Unexpected response</source>
-        <translation type="unfinished"></translation>
+        <translation>Неожиданный ответ</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="449"/>
         <source>Error binding resource</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка назначения ресурса</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="450"/>
         <source>Error starting session</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка при запуске сессии</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="451"/>
         <source>Stream error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка потока</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="452"/>
         <source>Encryption error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка шифрования</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="453"/>
         <source>Error loading certificate (Invalid password?)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка загрузки сертификата (неверный пароль?)</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="454"/>
         <source>Certificate not authorized</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат не авторизован</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="456"/>
         <source>Unknown certificate</source>
-        <translation type="unfinished"></translation>
+        <translation>Неизвестный сертификат</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="457"/>
         <source>Certificate has expired</source>
-        <translation type="unfinished"></translation>
+        <translation>Срок действия сертификата истек</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="458"/>
         <source>Certificate is not yet valid</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат ещё не действителен</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="459"/>
         <source>Certificate is self-signed</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат самоподписанный</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="460"/>
         <source>Certificate has been rejected</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат отклонён</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="461"/>
         <source>Certificate is not trusted</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат не является доверенным</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="462"/>
         <source>Certificate cannot be used for encrypting your connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат не может быть использован для шифрования Вашего соединения</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="463"/>
         <source>Certificate path length constraint exceeded</source>
-        <translation type="unfinished"></translation>
+        <translation>Превышена длина пути сертификата</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="464"/>
         <source>Invalid certificate signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Подпись сертификата недействительна</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="465"/>
         <source>Invalid Certificate Authority</source>
-        <translation type="unfinished"></translation>
+        <translation>Центр сертификации недействителен</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="466"/>
         <source>Certificate does not match the host identity</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат не соответствует серверу</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="476"/>
         <source>Certificate error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка сертификата</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="490"/>
         <source>Reconnect to %1% failed: %2%. Will retry in %3% seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Переподключение к %1% не удалось: %2%. Повтор через %3% секунд.</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="493"/>
         <source>Disconnected from %1%: %2%.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключение от %1%: %2%.</translation>
     </message>
     <message>
         <location filename="../Controllers/Roster/RosterController.cpp" line="126"/>
@@ -496,7 +498,7 @@
     <message>
         <location filename="../Controllers/Roster/RosterController.cpp" line="251"/>
         <source>Server %1% rejected contact list change to item &apos;%2%&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервер %1% отклонил изменение списка контактов с элементом &apos;%2%&apos;</translation>
     </message>
     <message>
         <location filename="../Controllers/StatusUtil.cpp" line="15"/>
@@ -534,7 +536,7 @@
         <location filename="../QtUI/QtStrings.h" line="17"/>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this to LTR for left-to-right or RTL for right-to-left languages</comment>
-        <translation type="unfinished"></translation>
+        <translation>слева направо</translation>
     </message>
 </context>
 <context>
@@ -820,7 +822,8 @@
     <message>
         <location filename="../QtUI/QtStrings.h" line="27"/>
         <source>Commit</source>
-        <translation>Фиксировать xzxz</translation>
+        <translatorcomment>wtf</translatorcomment>
+        <translation>Фиксировать</translation>
     </message>
     <message>
         <location filename="../QtUI/QtStrings.h" line="28"/>
@@ -1068,7 +1071,7 @@
         <location filename="../QtUI/QtAboutWidget.cpp" line="50"/>
         <source>Using the English translation by
 %1</source>
-        <translation>Используется перевод на русский язык от
+        <translation>Перевод на русский язык:
 %1</translation>
     </message>
     <message>
@@ -1087,7 +1090,7 @@
     <message>
         <location filename="../QtUI/QtAvatarWidget.cpp" line="73"/>
         <source>Select picture ...</source>
-        <translation>Выберите изображение ...</translation>
+        <translation>Выбрать изображение ...</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAvatarWidget.cpp" line="76"/>
@@ -1170,12 +1173,12 @@
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="302"/>
         <source>This message has not been received by your server yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это сообщение не может быть получено.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="304"/>
         <source>This message may not have been transmitted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это сообщение не может быть передано.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="324"/>
@@ -1261,12 +1264,12 @@
         <location filename="../QtUI/QtLoginWindow.cpp" line="86"/>
         <location filename="../QtUI/QtLoginWindow.cpp" line="87"/>
         <source>User address - looks like someuser@someserver.com</source>
-        <translation>например, вася@jabber.ru/стриж</translation>
+        <translation>Например, вася@jabber.ru/стриж</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="91"/>
         <source>Example: alice@wonderland.lit</source>
-        <translation>например, вася@jabber.ru</translation>
+        <translation>Например, ivan@jabber.ru</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="97"/>
@@ -1283,7 +1286,7 @@
         <location filename="../QtUI/QtLoginWindow.cpp" line="125"/>
         <location filename="../QtUI/QtLoginWindow.cpp" line="299"/>
         <source>Connect</source>
-        <translation>Поехали</translation>
+        <translation>Подключиться</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="136"/>
@@ -1358,7 +1361,7 @@
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="421"/>
         <source>Would you like to permanently trust this certificate? This must only be done if you know it is correct.</source>
-        <translation type="unfinished"></translation>
+        <translation>Хотели бы Вы доверять этому сертификату?</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="423"/>
@@ -1506,7 +1509,10 @@
  Would you like to add them to your contact list and share your status when you&apos;re online? 
 
 If you choose to defer this choice, you will be asked again when you next login.</source>
-        <translation></translation>
+        <translation>%1 хочет добавить Вас в свой ​​список контактов.
+Вы хотите добавить его в список контактов и обмениваться статусами, когда вы в сети?
+
+Если Вы решили отложить выбор, то запрос придёт снова при следующем подключении.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtSubscriptionRequestWindow.cpp" line="24"/>
@@ -1531,7 +1537,7 @@ If you choose to defer this choice, you will be asked again when you next login.
     <message>
         <location filename="../QtUI/QtSubscriptionRequestWindow.cpp" line="34"/>
         <source>Defer</source>
-        <translation>Отложить xzxz</translation>
+        <translation>Отложить</translation>
     </message>
 </context>
 <context>
