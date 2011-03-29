@@ -729,6 +729,10 @@
         <translation>Скопировать адрес</translation>
     </message>
     <message>
+        <source>Copy Image</source>
+        <translation>Копировать изображение</translation>
+    </message>
+    <message>
         <location filename="../QtUI/QtStrings.h" line="20"/>
         <source>Copy</source>
         <translation>Копировать</translation>
