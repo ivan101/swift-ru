@@ -522,18 +522,62 @@
         <source>Offline</source>
         <translation>Отключён</translation>
     </message>
+    <message>
+        <location filename="../Controllers/ProfileController.cpp" line="62"/>
+        <source>There was an error publishing your profile data</source>
+        <translation>Ошибка публикации данных Вашего профиля</translation>
+    </message>
 </context>
 <context>
     <name>CloseButton</name>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="17"/>
         <source>Close Tab</source>
         <translation>Закрыть вкладку</translation>
     </message>
 </context>
 <context>
+    <name>MAC_APPLICATION_MENU</name>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="79"/>
+        <source>Services</source>
+        <translation>Службы</translation>
+    </message>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="80"/>
+        <source>Hide %1</source>
+        <translation>Скрыть %1</translation>
+    </message>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="81"/>
+        <source>Hide Others</source>
+        <translation>Скрыть остальные</translation>
+    </message>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="82"/>
+        <source>Show All</source>
+        <translation>Показать все</translation>
+    </message>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="83"/>
+        <source>Preferences...</source>
+        <translation>Настройки…</translation>
+    </message>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="84"/>
+        <source>Quit %1</source>
+        <translation>Завершить %1</translation>
+    </message>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="85"/>
+        <source>About %1</source>
+        <translation>О %1</translation>
+    </message>
+</context>
+<context>
     <name>QApplication</name>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="17"/>
+        <location filename="../QtUI/QtStrings.h" line="19"/>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this to LTR for left-to-right or RTL for right-to-left languages</comment>
         <translation>слева направо</translation>
@@ -542,32 +586,32 @@
 <context>
     <name>QDialogButtonBox</name>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="35"/>
+        <location filename="../QtUI/QtStrings.h" line="69"/>
         <source>&amp;Yes</source>
         <translation>&amp;Да</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="36"/>
+        <location filename="../QtUI/QtStrings.h" line="70"/>
         <source>&amp;No</source>
         <translation>&amp;Нет</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="37"/>
+        <location filename="../QtUI/QtStrings.h" line="71"/>
         <source>&amp;OK</source>
         <translation>&amp;ОК</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="38"/>
+        <location filename="../QtUI/QtStrings.h" line="72"/>
         <source>OK</source>
         <translation>ОК</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="39"/>
+        <location filename="../QtUI/QtStrings.h" line="73"/>
         <source>&amp;Cancel</source>
         <translation>О&amp;тмена</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="40"/>
+        <location filename="../QtUI/QtStrings.h" line="74"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
@@ -575,32 +619,52 @@
 <context>
     <name>QLineEdit</name>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="21"/>
         <source>Select All</source>
         <translation>Выделить всё</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="22"/>
         <source>&amp;Undo</source>
         <translation>&amp;Отменить действие</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="23"/>
         <source>&amp;Redo</source>
         <translation>&amp;Повторить действие</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="24"/>
         <source>Cu&amp;t</source>
         <translation>&amp;Вырезать</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="25"/>
         <source>&amp;Copy</source>
         <translation>&amp;Копировать</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="26"/>
         <source>&amp;Paste</source>
         <translation>В&amp;ставить</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="27"/>
         <source>Delete</source>
         <translation>Удалить</translation>
+    </message>
+</context>
+<context>
+    <name>QMessageBox</name>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="76"/>
+        <source>Show Details...</source>
+        <translation>Показать подробности...</translation>
+    </message>
+    <message>
+        <location filename="../QtUI/QtStrings.h" line="77"/>
+        <source>Hide Details...</source>
+        <translation>Скрыть подробности...</translation>
     </message>
 </context>
 <context>
@@ -624,6 +688,7 @@
 <context>
     <name>QScrollBar</name>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="29"/>
         <source>Scroll here</source>
         <translation>Прокрутить сюда</translation>
     </message>
@@ -632,6 +697,7 @@
         <translation>К левой границе</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="30"/>
         <source>Top</source>
         <translation>Вверх</translation>
     </message>
@@ -640,6 +706,7 @@
         <translation>К правой границе</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="31"/>
         <source>Bottom</source>
         <translation>Вниз</translation>
     </message>
@@ -648,6 +715,7 @@
         <translation>На страницу влево</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="32"/>
         <source>Page up</source>
         <translation>На страницу вверх</translation>
     </message>
@@ -656,6 +724,7 @@
         <translation>На страницу вправо</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="33"/>
         <source>Page down</source>
         <translation>На страницу вниз</translation>
     </message>
@@ -664,6 +733,7 @@
         <translation>Прокрутить влево</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="34"/>
         <source>Scroll up</source>
         <translation>Прокрутить вверх</translation>
     </message>
@@ -672,6 +742,7 @@
         <translation>Прокрутить вправо</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="35"/>
         <source>Scroll down</source>
         <translation>Прокрутить вниз</translation>
     </message>
@@ -691,18 +762,22 @@
 <context>
     <name>QTextControl</name>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="39"/>
         <source>&amp;Undo</source>
         <translation>&amp;Отменить действие</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="40"/>
         <source>&amp;Redo</source>
         <translation>&amp;Повторить действие</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="41"/>
         <source>Cu&amp;t</source>
         <translation>&amp;Вырезать</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="38"/>
         <source>&amp;Copy</source>
         <translation>&amp;Копировать</translation>
     </message>
@@ -711,14 +786,17 @@
         <translation>Скопировать &amp;адрес ссылки</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="42"/>
         <source>&amp;Paste</source>
         <translation>В&amp;ставить</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="43"/>
         <source>Delete</source>
         <translation>Удалить</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="37"/>
         <source>Select All</source>
         <translation>Выделить всё</translation>
     </message>
@@ -726,20 +804,22 @@
 <context>
     <name>QWebPage</name>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="19"/>
+        <location filename="../QtUI/QtStrings.h" line="45"/>
         <source>Copy Link</source>
         <translation>Скопировать адрес</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="47"/>
         <source>Copy Image</source>
         <translation>Копировать изображение</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="20"/>
+        <location filename="../QtUI/QtStrings.h" line="46"/>
         <source>Copy</source>
         <translation>Копировать</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="48"/>
         <source>Scroll here</source>
         <translation>Прокрутить сюда</translation>
     </message>
@@ -748,6 +828,7 @@
         <translation>К левой границе</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="49"/>
         <source>Top</source>
         <translation>Вверх</translation>
     </message>
@@ -756,6 +837,7 @@
         <translation>К правой границе</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="50"/>
         <source>Bottom</source>
         <translation>Вниз</translation>
     </message>
@@ -764,6 +846,7 @@
         <translation>На страницу влево</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="51"/>
         <source>Page up</source>
         <translation>На страницу вверх</translation>
     </message>
@@ -772,6 +855,7 @@
         <translation>На страницу вправо</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="52"/>
         <source>Page down</source>
         <translation>На страницу вниз</translation>
     </message>
@@ -780,6 +864,7 @@
         <translation>Прокрутить влево</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="53"/>
         <source>Scroll up</source>
         <translation>Прокрутить вверх</translation>
     </message>
@@ -788,6 +873,7 @@
         <translation>Прокрутить вправо</translation>
     </message>
     <message>
+        <location filename="../QtUI/QtStrings.h" line="54"/>
         <source>Scroll down</source>
         <translation>Прокрутить вниз</translation>
     </message>
@@ -795,63 +881,63 @@
 <context>
     <name>QWizard</name>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="22"/>
+        <location filename="../QtUI/QtStrings.h" line="56"/>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;назад</translation>
+        <translation>&lt; &amp;Назад</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="23"/>
+        <location filename="../QtUI/QtStrings.h" line="57"/>
         <source>&amp;Finish</source>
         <translation>&amp;Готово</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="24"/>
+        <location filename="../QtUI/QtStrings.h" line="58"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощь</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="25"/>
+        <location filename="../QtUI/QtStrings.h" line="59"/>
         <source>Go Back</source>
         <translation>Назад</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="26"/>
+        <location filename="../QtUI/QtStrings.h" line="60"/>
         <source>Continue</source>
         <translation>Продолжить</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="27"/>
+        <location filename="../QtUI/QtStrings.h" line="61"/>
         <source>Commit</source>
         <translatorcomment>wtf</translatorcomment>
         <translation>Фиксировать</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="28"/>
+        <location filename="../QtUI/QtStrings.h" line="62"/>
         <source>Done</source>
         <translation>Готово</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="29"/>
+        <location filename="../QtUI/QtStrings.h" line="63"/>
         <source>Quit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="30"/>
+        <location filename="../QtUI/QtStrings.h" line="64"/>
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="31"/>
+        <location filename="../QtUI/QtStrings.h" line="65"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="32"/>
+        <location filename="../QtUI/QtStrings.h" line="66"/>
         <source>&amp;Next</source>
         <translation>&amp;Далее</translation>
     </message>
     <message>
-        <location filename="../QtUI/QtStrings.h" line="33"/>
+        <location filename="../QtUI/QtStrings.h" line="67"/>
         <source>&amp;Next &gt;</source>
         <translation>&amp;Далее &gt;</translation>
     </message>
@@ -862,7 +948,7 @@
         <location filename="../QtUI/QtBookmarkDetailWindow.ui"/>
         <location filename="../QtUI/ui_QtBookmarkDetailWindow.h" line="137"/>
         <source>Edit Bookmark Details</source>
-        <translation>Изменить детали закладки</translation>
+        <translation>Редактирование закладки</translation>
     </message>
     <message>
         <location filename="../QtUI/QtBookmarkDetailWindow.ui"/>
@@ -1684,7 +1770,7 @@ If you choose to defer this choice, you will be asked again when you next login.
     <message>
         <location filename="../QtUI/QtAboutWidget.cpp" line="52"/>
         <source>TRANSLATION_LICENSE</source>
-        <comment>Should be the following (untranslated) text: &apos;This translation is licensed under the BSD License. See http://www.opensource.org/licenses/bsd-license.php&apos;</comment>
+        <comment>This string contains the license under which this translation is licensed. We ask you to license the translation under the BSD license. Please read http://www.opensource.org/licenses/bsd-license.php, and if you agree to release your translation under this license, use the following (untranslated) text: &apos;This translation is licensed under the BSD License. See http://www.opensource.org/licenses/bsd-license.php&apos;</comment>
         <translation>This translation is licensed under the BSD License. See http://www.opensource.org/licenses/bsd-license.php</translation>
     </message>
 </context>
