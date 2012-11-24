@@ -17,12 +17,12 @@
     <message>
         <location filename="../Controllers/Chat/ChatController.cpp" line="202"/>
         <source>This chat doesn&apos;t support delivery receipts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот чат не поддерживает отчёты о доставке.</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatController.cpp" line="204"/>
         <source>This chat may not support delivery receipts. You might not receive delivery receipts for the messages you sent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот чат не поддерживает отчёты о доставке. Вы не будете получать уведомления о доставке отправленных Вами сообщений.</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatController.cpp" line="216"/>
@@ -58,7 +58,7 @@
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="209"/>
         <source>Couldn&apos;t send message: %1%</source>
-        <translation type="unfinished">Ошибка отправки: %1%</translation>
+        <translation>Ошибка отправки сообщения: %1%</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/ChatControllerBase.cpp" line="269"/>
@@ -223,7 +223,7 @@
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="269"/>
         <source>Couldn&apos;t join room: %1%.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка входа в комнату: %1%.</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="281"/>
@@ -294,27 +294,27 @@
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="544"/>
         <source>%1% has left the room%2%</source>
-        <translation type="unfinished"></translation>
+        <translation>%1% вышел из комнаты%2%</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="548"/>
         <source>You have been kicked out of the room</source>
-        <translation type="unfinished"></translation>
+        <translation>Вас выгнали из комнаты</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="549"/>
         <source>You have been banned from the room</source>
-        <translation type="unfinished"></translation>
+        <translation>Вас забанили в этой комнате</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="550"/>
         <source>You are no longer a member of the room and have been removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы больше не зарегистрированный пользователь комнаты и были удалены</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="551"/>
         <source>The room has been destroyed</source>
-        <translation type="unfinished"></translation>
+        <translation>Комната была уничтожена</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="667"/>
@@ -324,12 +324,12 @@
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="719"/>
         <source>Room configuration failed: %1%.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка настройки комнаты: %1%.</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="725"/>
         <source>Occupant role change failed: %1%.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка изменения роли: %1%.</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="553"/>
@@ -339,7 +339,7 @@
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="247"/>
         <source>The correct room password is needed</source>
-        <translation type="unfinished"></translation>
+        <translation>Необходим правильный пароль к комнате</translation>
     </message>
     <message>
         <location filename="../Controllers/Chat/MUCController.cpp" line="632"/>
@@ -395,12 +395,12 @@
     <message>
         <location filename="../Controllers/EventNotifier.cpp" line="67"/>
         <source>%1% has invited you to enter the %2% room</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 приглашает Вас войти в конференцию %2</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="466"/>
         <source>User address invalid. User address should be of the form &apos;alice@wonderland.lit&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес пользователя недействителен. Он должен иметь вид&quot;vasya@pup.kin&quot;</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="568"/>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../Controllers/MainController.cpp" line="585"/>
         <source>Certificate card removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат удалён</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="587"/>
@@ -550,12 +550,12 @@
     <message>
         <location filename="../Controllers/MainController.cpp" line="598"/>
         <source>Certificate has been revoked</source>
-        <translation type="unfinished"></translation>
+        <translation>Сертификат отозван</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="599"/>
         <source>Unable to determine certificate revocation state</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно проверить состояние отзыва сертификата</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="609"/>
@@ -565,12 +565,12 @@
     <message>
         <location filename="../Controllers/MainController.cpp" line="616"/>
         <source>Re-enter credentials and retry</source>
-        <translation type="unfinished"></translation>
+        <translation>Повторно введите учётные данные и повторите</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="629"/>
         <source>Disconnected from %1%: %2%. To reconnect, Sign Out and provide your password again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Разорвано соединение с %1%: %2%. Чтобы восстановить связь, отключитесь и введите пароль ещё раз.</translation>
     </message>
     <message>
         <location filename="../Controllers/MainController.cpp" line="635"/>
@@ -624,27 +624,28 @@
     <message>
         <location filename="../Controllers/ChatMessageSummarizer.cpp" line="33"/>
         <source>%1% (%2%)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1% (%2%)</translation>
     </message>
     <message>
         <location filename="../Controllers/ChatMessageSummarizer.cpp" line="38"/>
         <source>%1% and %2% others (%3%)</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>xzxz</translatorcomment>
+        <translation>%1% и %2% другие (%3%)</translation>
     </message>
     <message>
         <location filename="../Controllers/ChatMessageSummarizer.cpp" line="41"/>
         <source>%1%, %2% (%3%)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1%, %2% (%3%)</translation>
     </message>
     <message>
         <location filename="../QtUI/CAPICertificateSelector.cpp" line="63"/>
         <source>TLS Client Certificate Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбор клиентского сертификата TLS</translation>
     </message>
     <message>
         <location filename="../QtUI/CAPICertificateSelector.cpp" line="64"/>
         <source>Select a certificate to use for authentication</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать сертификат для аутентификации</translation>
     </message>
 </context>
 <context>
@@ -806,97 +807,99 @@
     <message>
         <location filename="../QtUI/EventViewer/QtEvent.cpp" line="81"/>
         <source>%1 has invited you to enter the %2 room.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 приглашает Вас войти в конференцию %2.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="982"/>
         <source>You&apos;ve been invited to enter the %1 room.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вас пригласили войти в конференцию %1.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="984"/>
         <source>Reason: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Причина: %1</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="987"/>
         <source>This person may not have really sent this invitation!</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот человек, возможно, не посылал это приглашение!</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="46"/>
         <source>Direction</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>xzxz</translatorcomment>
+        <translation>Направление</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="47"/>
         <source>Other Party</source>
-        <translation type="unfinished"></translation>
+        <translation>Другая сторона</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="48"/>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation>Регион</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="49"/>
         <source>Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Прогресс</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="50"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="65"/>
         <source>Incoming</source>
-        <translation type="unfinished"></translation>
+        <translation>Входящий</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="65"/>
         <source>Outgoing</source>
-        <translation type="unfinished"></translation>
+        <translation>Исходящий</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="74"/>
         <source>Waiting for start</source>
-        <translation type="unfinished"></translation>
+        <translation>Ожидание старта</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="76"/>
         <source>Waiting for other side to accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Ожидание принятия на другой стороне</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="78"/>
         <source>Negotiating</source>
-        <translation type="unfinished"></translation>
+        <translation>Переговоры</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="80"/>
         <source>Transferring</source>
-        <translation type="unfinished"></translation>
+        <translation>Передача</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="82"/>
         <source>Finished</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>xzxz</translatorcomment>
+        <translation>Завершено</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="84"/>
         <source>Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListItemModel.cpp" line="86"/>
         <source>Canceled</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменено</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="142"/>
         <source>Connection Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Параметры подключения</translation>
     </message>
 </context>
 <context>
@@ -1161,42 +1164,42 @@
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="14"/>
         <source>Edit Affiliations</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактирование рангов</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="28"/>
         <source>Affiliation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ранг:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="36"/>
         <source>Owner</source>
-        <translation type="unfinished"></translation>
+        <translation>Владелец</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="41"/>
         <source>Administrator</source>
-        <translation type="unfinished"></translation>
+        <translation>Администратор</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="46"/>
         <source>Member</source>
-        <translation type="unfinished"></translation>
+        <translation>Зарегистрированный пользователь</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="51"/>
         <source>Outcast (Banned)</source>
-        <translation type="unfinished"></translation>
+        <translation>Заблокированный</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="68"/>
         <source>Add User</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить пользователя</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.ui" line="75"/>
         <source>Remove User</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить пользователя</translation>
     </message>
 </context>
 <context>
@@ -1229,7 +1232,7 @@
     <message>
         <location filename="../QtUI/QtBookmarkDetailWindow.ui" line="93"/>
         <source>Enter automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Входить автоматически</translation>
     </message>
     <message>
         <source>Join automatically</source>
@@ -1241,7 +1244,7 @@
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.ui" line="14"/>
         <source>Certificate Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Просмотр сертификата</translation>
     </message>
 </context>
 <context>
@@ -1249,121 +1252,121 @@
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="14"/>
         <source>Connection Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Параметры подключения</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="22"/>
         <source>Connection Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод подключения:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="36"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="41"/>
         <source>Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Вручную</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="46"/>
         <source>BOSH</source>
-        <translation type="unfinished"></translation>
+        <translation>BOSH</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="99"/>
         <source>Secure connection:</source>
-        <translation type="unfinished"></translation>
+        <translation>Безопасное подключение:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="107"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Никогда</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="112"/>
         <source>Encrypt when possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Шифровать соединение если возможно</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="117"/>
         <source>Always encrypt</source>
-        <translation type="unfinished"></translation>
+        <translation>Всегда шифровать</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="127"/>
         <source>Allow Compression</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешить сжатие</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="134"/>
         <source>Allow sending password over insecure connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешить отправку пароля через незащищённое соединение</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="157"/>
         <source>Manually select server</source>
-        <translation type="unfinished"></translation>
+        <translation>Вручную выбрать сервер</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="185"/>
         <location filename="../QtUI/QtConnectionSettings.ui" line="315"/>
         <location filename="../QtUI/QtConnectionSettings.ui" line="429"/>
         <source>Hostname:</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервер:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="208"/>
         <location filename="../QtUI/QtConnectionSettings.ui" line="338"/>
         <location filename="../QtUI/QtConnectionSettings.ui" line="452"/>
         <source>Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Порт:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="230"/>
         <source>Connection Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Прокси для подключения</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="238"/>
         <source>Proxy type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип прокси:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="249"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Отсутствует</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="254"/>
         <source>Use system-configured proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать системные настройки прокси</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="259"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="264"/>
         <source>HTTP Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP Connect</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="287"/>
         <source>Override system-configured proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезаписать системные настройки прокси</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="382"/>
         <source>BOSH URI:</source>
-        <translation type="unfinished"></translation>
+        <translation>BOSH URI:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtConnectionSettings.ui" line="401"/>
         <source>Manually select HTTP proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Вручную выбрать HTTP прокси</translation>
     </message>
 </context>
 <context>
@@ -1371,22 +1374,23 @@
     <message>
         <location filename="../QtUI/QtHistoryWindow.ui" line="14"/>
         <source>History</source>
-        <translation type="unfinished"></translation>
+        <translation>История</translation>
     </message>
     <message>
         <location filename="../QtUI/QtHistoryWindow.ui" line="22"/>
         <source>Search:</source>
-        <translation type="unfinished"></translation>
+        <translation>Поиск:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtHistoryWindow.ui" line="42"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>xzxz</translatorcomment>
+        <translation>Следующий</translation>
     </message>
     <message>
         <location filename="../QtUI/QtHistoryWindow.ui" line="52"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущий</translation>
     </message>
 </context>
 <context>
@@ -1400,22 +1404,22 @@
     <message>
         <location filename="../QtUI/QtJoinMUCWindow.ui" line="28"/>
         <source>Room Address:</source>
-        <translation type="unfinished">Адрес комнаты:</translation>
+        <translation>Адрес комнаты:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtJoinMUCWindow.ui" line="42"/>
         <source>Your Nickname:</source>
-        <translation type="unfinished">Ваш ник:</translation>
+        <translation>Ваш ник:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtJoinMUCWindow.ui" line="59"/>
         <source>Room Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>Пароль комнаты:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtJoinMUCWindow.ui" line="71"/>
         <source>Automatically configure newly created rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически откывать окно конфигурации комнаты при её создании</translation>
     </message>
     <message>
         <source>Room:</source>
@@ -1525,7 +1529,7 @@
     <message>
         <location filename="../QtUI/UserSearch/QtUserSearchResultsPage.ui" line="27"/>
         <source>No results.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет результатов.</translation>
     </message>
 </context>
 <context>
@@ -1546,12 +1550,12 @@
     <message>
         <location filename="../QtUI/ChatList/ChatListModel.cpp" line="18"/>
         <source>Recent Chats</source>
-        <translation type="unfinished"></translation>
+        <translation>Последние чаты</translation>
     </message>
     <message>
         <location filename="../QtUI/ChatList/ChatListModel.cpp" line="20"/>
         <source>Opened Whiteboards</source>
-        <translation type="unfinished"></translation>
+        <translation>Открытые доски</translation>
     </message>
 </context>
 <context>
@@ -1594,37 +1598,39 @@
     <message>
         <location filename="../QtUI/QtAdHocCommandWindow.cpp" line="36"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAdHocCommandWindow.cpp" line="39"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAdHocCommandWindow.cpp" line="42"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>xzxz следующий</translatorcomment>
+        <translation>Далее</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAdHocCommandWindow.cpp" line="45"/>
         <source>Complete</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>xzxz ejabberd buggy ad-hoc</translatorcomment>
+        <translation>Выполнено</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAdHocCommandWindow.cpp" line="86"/>
         <source>Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка: %1</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAdHocCommandWindow.cpp" line="87"/>
         <source>Warning: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Предупреждение: %1</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAdHocCommandWindow.cpp" line="104"/>
         <source>Error executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка выполнения команды</translation>
     </message>
 </context>
 <context>
@@ -1632,12 +1638,12 @@
     <message>
         <location filename="../QtUI/QtAffiliationEditor.cpp" line="48"/>
         <source>Add User</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить пользователя</translation>
     </message>
     <message>
         <location filename="../QtUI/QtAffiliationEditor.cpp" line="48"/>
         <source>Added User&apos;s Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>Введите адрес пользователя:</translation>
     </message>
 </context>
 <context>
@@ -1665,7 +1671,7 @@
     <message>
         <location filename="../QtUI/QtAvatarWidget.cpp" line="81"/>
         <source>Image Files (*.png *.jpg *.jpeg *.gif)</source>
-        <translation type="unfinished"></translation>
+        <translation>Изображения (*.png *.jpg *.jpeg *.gif)</translation>
     </message>
     <message>
         <source>Image Files (*.png *.jpg *.gif)</source>
@@ -1700,88 +1706,88 @@
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="95"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Общее</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="96"/>
         <source>Valid From</source>
-        <translation type="unfinished"></translation>
+        <translation>Действует с</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="97"/>
         <source>Valid To</source>
-        <translation type="unfinished"></translation>
+        <translation>Действителен до</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="98"/>
         <source>Serial Number</source>
-        <translation type="unfinished"></translation>
+        <translation>Серийный номер</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="99"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Версия</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="101"/>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Тема</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="102"/>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="124"/>
         <source>Organization</source>
-        <translation type="unfinished"></translation>
+        <translation>Организация</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="103"/>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="125"/>
         <source>Common Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Полное имя</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="104"/>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="126"/>
         <source>Locality</source>
-        <translation type="unfinished"></translation>
+        <translation>Местонахождение</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="105"/>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="127"/>
         <source>Organizational Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>Подразделение</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="106"/>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="128"/>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>Страна</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="107"/>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="129"/>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation>Регион</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="110"/>
         <source>Alternate Subject Names</source>
-        <translation type="unfinished"></translation>
+        <translation>Альтернативные имена субъекта</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="115"/>
         <source>E-mail Address</source>
-        <translation type="unfinished"></translation>
+        <translation>E-Mail адрес</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="117"/>
         <source>DNS Name</source>
-        <translation type="unfinished"></translation>
+        <translation>DNS имя</translation>
     </message>
     <message>
         <location filename="../QtUI/QtCertificateViewerDialog.cpp" line="123"/>
         <source>Issuer</source>
-        <translation type="unfinished"></translation>
+        <translation>Издатель</translation>
     </message>
 </context>
 <context>
@@ -1805,7 +1811,7 @@
     <message>
         <location filename="../QtUI/ChatList/QtChatListWindow.cpp" line="173"/>
         <source>Clear recents</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить последние</translation>
     </message>
 </context>
 <context>
@@ -1828,64 +1834,64 @@
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="219"/>
         <source>%1 edited</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 отредактировано</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="400"/>
         <source>Waiting for other side to accept the transfer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ожидание принятия на другой стороне.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="401"/>
         <location filename="../QtUI/QtChatView.cpp" line="406"/>
         <location filename="../QtUI/QtChatView.cpp" line="417"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="405"/>
         <source>Negotiating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Переговоры...</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="420"/>
         <source>Transfer has been canceled!</source>
-        <translation type="unfinished"></translation>
+        <translation>Передача была отменена!</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="424"/>
         <source>Transfer completed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Передача успешно завершена.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="427"/>
         <source>Transfer failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Передача не удалась.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="437"/>
         <source>Started whiteboard chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыта доска для рисования</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="438"/>
         <source>Show whiteboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать доску для рисования</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="440"/>
         <source>Whiteboard chat has been canceled</source>
-        <translation type="unfinished"></translation>
+        <translation>Доска для рисования была отменена</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="442"/>
         <source>Whiteboard chat request has been rejected</source>
-        <translation type="unfinished"></translation>
+        <translation>Запрос порисовать был отклонён</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatView.cpp" line="451"/>
         <source>Return to room</source>
-        <translation type="unfinished"></translation>
+        <translation>Вернуться в комнату</translation>
     </message>
 </context>
 <context>
@@ -1893,17 +1899,17 @@
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="157"/>
         <source>Correcting</source>
-        <translation type="unfinished"></translation>
+        <translation>Исправление</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="269"/>
         <source>This chat may not support message correction. If you send a correction anyway, it may appear as a duplicate message</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот чат, возможно, не поддерживает исправление сообщений. Если Вы отправляете исправление, это может выглядеть как дубликат сообщения</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="271"/>
         <source>This chat does not support message correction.  If you send a correction anyway, it will appear as a duplicate message</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот чат не поддерживает исправление сообщений. Если Вы отправляете исправление, это будет выглядеть как дубликат сообщения</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="546"/>
@@ -1918,17 +1924,17 @@
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="562"/>
         <source>The receipt for this message has been received.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отчёт о доставке этого сообщения был получен.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="565"/>
         <source>The receipt for this message has not yet been received. The recipient(s) might not have received this message.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отчёт о доставке этого сообщения пока не получен. Получатель, возможно, не получил это сообщение.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="613"/>
         <source>Send file</source>
-        <translation type="unfinished"></translation>
+        <translation>Отправить файл</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="615"/>
@@ -1936,108 +1942,108 @@
         <location filename="../QtUI/QtChatWindow.cpp" line="660"/>
         <location filename="../QtUI/QtChatWindow.cpp" line="664"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="616"/>
         <source>Set Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Установка описания</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="617"/>
         <source>Send</source>
-        <translation type="unfinished"></translation>
+        <translation>Отправка</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="621"/>
         <source>Receiving file</source>
-        <translation type="unfinished"></translation>
+        <translation>Получить файл</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="624"/>
         <location filename="../QtUI/QtChatWindow.cpp" line="665"/>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Принять</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="659"/>
         <source>Starting whiteboard chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Открывается доска для рисования</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="663"/>
         <source>%1 would like to start a whiteboard chat</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 хочет порисовать</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="700"/>
         <source>File transfer description</source>
-        <translation type="unfinished"></translation>
+        <translation>Описание передачи файлов</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="701"/>
         <source>Description:</source>
-        <translation type="unfinished"></translation>
+        <translation>Описание:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="715"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить файл</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="908"/>
         <source>Change subject…</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить тему…</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="909"/>
         <source>Configure room…</source>
-        <translation type="unfinished"></translation>
+        <translation>Настроить комнату…</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="910"/>
         <source>Edit affiliations…</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать ранги…</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="911"/>
         <source>Destroy room</source>
-        <translation type="unfinished"></translation>
+        <translation>Уничтожить комнату</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="912"/>
         <source>Invite person to this room…</source>
-        <translation type="unfinished"></translation>
+        <translation>Пригласить в эту комнату…</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="922"/>
         <source>Change room subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменение темы конференции</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="922"/>
         <source>New subject:</source>
-        <translation type="unfinished"></translation>
+        <translation>Новая тема:</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="940"/>
         <source>Confirm room destruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Подтверждение удаления комнаты</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="941"/>
         <source>Are you sure you want to destroy the room?</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы уверены, что хотите удалить комнату?</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="942"/>
         <source>This will destroy the room.</source>
-        <translation type="unfinished"></translation>
+        <translation>Комната будет уничтожена.</translation>
     </message>
     <message>
         <location filename="../QtUI/QtChatWindow.cpp" line="993"/>
         <source>Accept Invite</source>
-        <translation type="unfinished"></translation>
+        <translation>Принять приглашение</translation>
     </message>
     <message>
         <source>Couldn&apos;t send message: %1</source>
@@ -2100,7 +2106,7 @@
     <message>
         <location filename="../QtUI/EventViewer/QtEventWindow.cpp" line="48"/>
         <source>Display Notice</source>
-        <translation>Показать уведомления</translation>
+        <translation>Показать уведомление</translation>
     </message>
 </context>
 <context>
@@ -2108,12 +2114,12 @@
     <message>
         <location filename="../QtUI/QtFileTransferListWidget.cpp" line="39"/>
         <source>Clear Finished Transfers</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить завершённые передачи</translation>
     </message>
     <message>
         <location filename="../QtUI/QtFileTransferListWidget.cpp" line="44"/>
         <source>File Transfer List</source>
-        <translation type="unfinished"></translation>
+        <translation>Список передачи файлов</translation>
     </message>
 </context>
 <context>
@@ -2121,7 +2127,7 @@
     <message>
         <location filename="../QtUI/QtHistoryWindow.cpp" line="57"/>
         <source>History</source>
-        <translation type="unfinished"></translation>
+        <translation>История</translation>
     </message>
 </context>
 <context>
@@ -2129,12 +2135,12 @@
     <message>
         <location filename="../QtUI/QtInviteToChatWindow.cpp" line="25"/>
         <source>Users to invite to this chat (one per line):</source>
-        <translation type="unfinished"></translation>
+        <translation>Пользователи для приглашения в этот чат (один на строку):</translation>
     </message>
     <message>
         <location filename="../QtUI/QtInviteToChatWindow.cpp" line="31"/>
         <source>If you want to provide a reason for the invitation, enter it here</source>
-        <translation type="unfinished"></translation>
+        <translation>Если Вы хотите указать причину для приглашения, введите её здесь</translation>
     </message>
 </context>
 <context>
@@ -2183,12 +2189,12 @@
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="154"/>
         <source>Remember Password?</source>
-        <translation>Запомнить пароль?</translation>
+        <translation>Запомнить пароль</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="156"/>
         <source>Login Automatically?</source>
-        <translation>Подключаться автоматически?</translation>
+        <translation>Подключаться автоматически</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="168"/>
@@ -2213,12 +2219,12 @@
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="188"/>
         <source>Show &amp;File Transfer Overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Показать окно передачи &amp;файлов</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="193"/>
         <source>&amp;Play Sounds</source>
-        <translation>&amp;Играть звуки</translation>
+        <translation>&amp;Воспроизводить звуки</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="199"/>
@@ -2228,7 +2234,7 @@
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="211"/>
         <source>&amp;Quit</source>
-        <translation>&amp;Выход</translation>
+        <translation>В&amp;ыход</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="253"/>
@@ -2248,7 +2254,7 @@
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="367"/>
         <source>Confirm terms of use</source>
-        <translation type="unfinished"></translation>
+        <translation>Подтверждение условий использования</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="410"/>
@@ -2258,7 +2264,7 @@
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="410"/>
         <source>P12 files (*.cert *.p12 *.pfx);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>P12 файлы (*.cert *.p12 *.pfx);;Все файлы (*.*)</translation>
     </message>
     <message>
         <location filename="../QtUI/QtLoginWindow.cpp" line="523"/>
@@ -2284,12 +2290,12 @@
     <message>
         <location filename="../QtUI/QtMUCConfigurationWindow.cpp" line="34"/>
         <source>Cancel</source>
-        <translation type="unfinished">Отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMUCConfigurationWindow.cpp" line="37"/>
         <source>OK</source>
-        <translation type="unfinished">ОК</translation>
+        <translation>ОК</translation>
     </message>
 </context>
 <context>
@@ -2317,7 +2323,7 @@
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="87"/>
         <source>C&amp;hats</source>
-        <translation>&amp;Чаты</translation>
+        <translation>Ч&amp;аты</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="96"/>
@@ -2332,7 +2338,7 @@
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="106"/>
         <source>&amp;Show Emoticons</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать &amp;смайлы</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="120"/>
@@ -2352,12 +2358,12 @@
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="129"/>
         <source>&amp;View History…</source>
-        <translation type="unfinished"></translation>
+        <translation>Просмотр &amp;истории…</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="133"/>
         <source>&amp;Add Contact…</source>
-        <translation>&amp;Добавить контакт…</translation>
+        <translation>До&amp;бавить контакт…</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="136"/>
@@ -2367,12 +2373,12 @@
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="140"/>
         <source>Start &amp;Chat…</source>
-        <translation>Начать &amp;чат</translation>
+        <translation>Нач&amp;ать чат…</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="143"/>
         <source>Run Server Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Выполнить серверную команду</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="146"/>
@@ -2382,22 +2388,22 @@
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="150"/>
         <source>&amp;Request Delivery Receipts</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Запрашивать уведомления о доставке</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="161"/>
         <source>Collecting commands...</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбор команд...</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="216"/>
         <source>&amp;Chats</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Чаты</translation>
     </message>
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="339"/>
         <source>No Available Commands</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет доступных комманд</translation>
     </message>
 </context>
 <context>
@@ -2428,37 +2434,37 @@
     <message>
         <location filename="../QtUI/Roster/QtOccupantListWidget.cpp" line="46"/>
         <source>No actions for this user</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет действий для данного пользователя</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtOccupantListWidget.cpp" line="55"/>
         <source>Kick user</source>
-        <translation type="unfinished"></translation>
+        <translation>Выгнать</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtOccupantListWidget.cpp" line="56"/>
         <source>Kick and ban user</source>
-        <translation type="unfinished"></translation>
+        <translation>Выгнать и забанить</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtOccupantListWidget.cpp" line="57"/>
         <source>Make moderator</source>
-        <translation type="unfinished"></translation>
+        <translation>Сделать модератором</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtOccupantListWidget.cpp" line="58"/>
         <source>Make participant</source>
-        <translation type="unfinished"></translation>
+        <translation>Сделать участником</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtOccupantListWidget.cpp" line="59"/>
         <source>Remove voice</source>
-        <translation type="unfinished"></translation>
+        <translation>Лишить голоса</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtOccupantListWidget.cpp" line="60"/>
         <source>Add to contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить в контакты</translation>
     </message>
 </context>
 <context>
@@ -2484,7 +2490,7 @@
     <message>
         <location filename="../QtUI/QtRosterHeader.cpp" line="59"/>
         <source>Connection is secured</source>
-        <translation type="unfinished"></translation>
+        <translation>Подключение защищено</translation>
     </message>
 </context>
 <context>
@@ -2492,43 +2498,43 @@
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="58"/>
         <source>Edit…</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать…</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="59"/>
         <source>Remove</source>
-        <translation type="unfinished">Удалить</translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="63"/>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="83"/>
         <source>Send File</source>
-        <translation type="unfinished"></translation>
+        <translation>Отправить файл</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="69"/>
         <source>Start Whiteboard Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть доску для рисования</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="83"/>
         <source>All Files (*);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Все файлы (*);;</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="96"/>
         <source>Rename</source>
-        <translation type="unfinished">Переименовать</translation>
+        <translation>Переименовать</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="106"/>
         <source>Rename group</source>
-        <translation type="unfinished">Переименовать группу</translation>
+        <translation>Переименовать группу</translation>
     </message>
     <message>
         <location filename="../QtUI/Roster/QtRosterWidget.cpp" line="106"/>
         <source>Enter a new name for group &apos;%1&apos;:</source>
-        <translation type="unfinished">Введите новое название группы &apos;%1&apos;:</translation>
+        <translation>Введите новое название группы &apos;%1&apos;:</translation>
     </message>
 </context>
 <context>
@@ -2553,7 +2559,7 @@
 
 If you choose to defer this choice, you will be asked again when you next login.</source>
         <translation>%1 хочет добавить Вас в свой ​​список контактов.
-Вы хотите добавить его в список контактов и обмениваться статусами, когда вы в сети?
+Вы хотите добавить его в список контактов и обмениваться статусами, когда Вы в сети?
 
 Если Вы решили отложить выбор, то запрос придёт снова при следующем подключении.</translation>
     </message>
@@ -2680,12 +2686,12 @@ If you choose to defer this choice, you will be asked again when you next login.
     <message>
         <location filename="../QtUI/QtWebView.cpp" line="67"/>
         <source>Increase font size</source>
-        <translation type="unfinished"></translation>
+        <translation>Увеличить размер шрифта</translation>
     </message>
     <message>
         <location filename="../QtUI/QtWebView.cpp" line="68"/>
         <source>Decrease font size</source>
-        <translation type="unfinished"></translation>
+        <translation>Уменьшить размер шрифта</translation>
     </message>
 </context>
 <context>
@@ -2693,7 +2699,7 @@ If you choose to defer this choice, you will be asked again when you next login.
     <message>
         <location filename="../QtUI/Whiteboard/QtWhiteboardWindow.cpp" line="380"/>
         <source>Closing window is equivalent closing the session. Are you sure you want to do this?</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрытие окна эквивалентно закрытию сессии. Вы уверены, что хотите это сделать?</translation>
     </message>
 </context>
 <context>
