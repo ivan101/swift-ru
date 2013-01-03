@@ -2408,7 +2408,7 @@
     <message>
         <location filename="../QtUI/QtMainWindow.cpp" line="339"/>
         <source>No Available Commands</source>
-        <translation>Нет доступных комманд</translation>
+        <translation>Нет доступных команд</translation>
     </message>
 </context>
 <context>
